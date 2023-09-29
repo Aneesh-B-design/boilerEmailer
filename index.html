@@ -37,14 +37,14 @@
       }
 
       .head-meet {
-        padding-left: 55px;
+        padding-left: 40px;
         font-size: 2.2rem;
         color: red;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
       }
 
-      .icon-table {
+      /* .icon-table {
         border-collapse: collapse;
         width: 100%; 
       }
@@ -63,7 +63,51 @@
         line-height: 30px; 
         font-size: 14px; 
         color: #fff; 
-      }
+        border: 2px solid red;
+      } */
+
+      .icon-table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .icon-cell {
+            text-align: center;
+            vertical-align: middle;
+            padding: 5px;
+            width: 14.28%; 
+            padding-left: 5px;
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(to right, #214054, #D54641);
+            text-align: center;
+            line-height: 50px;
+            border-radius: 50%; /* Make the div circular */
+            border: 2px solid red;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        .icon-text {
+            font-size: 18px;
+            margin-top: 5px; 
+            word-wrap: break-word;
+            text-align: center; 
+            color: #214054;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .icon img {
+            max-width: 100%;
+            max-height: 100%;
+            margin: 0 auto;
+            vertical-align: middle;
+            width: 35px;
+            height: 35px;
+        }
 
       .div_org{
         background: linear-gradient(to right, #214054, #D54641);
@@ -127,6 +171,8 @@
         width: 50px;
         height: 50px;
         padding-left: 5px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
       }
 
       /* table {
@@ -149,7 +195,7 @@
   </head>
   <body>
     <div class="container">
-        <img src="emailer boiler (1).png" alt="" class="figma">
+        <img src="hero-img (2).png" alt="" class="figma">
       <section class="exhibit">
         <h3>
           <button class="exhibit-btn">
@@ -165,7 +211,79 @@
 
         <table class="icon-table">
           <tr>
-            <td class="icon-cell"><span class="icon"><img src="chemical.png" alt="leather"></span></td>
+              <td class="icon-cell">
+                  <div class="icon"><img src="chem.png" alt=""></div>
+                  <div class="icon-text">Chemical</div>
+              </td>
+              <td class="icon-cell">
+                  <div class="icon"><img src="pharma (2).png" alt=""></div>
+                  <div class="icon-text">Pharmaceutical</div>
+              </td>
+              <td class="icon-cell">
+                  <div class="icon"><img src="petrochem (2).png" alt=""></div>
+                  <div class="icon-text">Petrochemical</div>
+              </td>
+              <td class="icon-cell">
+                  <div class="icon"><img src="agrochem (2).png" alt=""></div>
+                  <div class="icon-text">Agro-chemical</div>
+              </td>
+              <td class="icon-cell">
+                  <div class="icon"><img src="fnb.png" alt=""></div>
+                  <div class="icon-text">F&B Industry</div>
+              </td>
+              <td class="icon-cell">
+                  <div class="icon" style="margin-top: 20px;"><img src="paint (2).png" alt=""></div>
+                  <div class="icon-text">Paint, Coating & dye</div>
+              </td>
+              <td class="icon-cell">
+                  <div class="icon" style="margin-top: 20px;"><img src="adhesive (2).png" alt=""></div>
+                  <div class="icon-text">Adhesive & Sealant</div>
+              </td>
+          </tr>
+      </table>
+  
+      <br><br>
+  
+      <table class="icon-table">
+          <tr>
+            <table class="icon-table">
+              <tr>
+                  <td class="icon-cell">
+                      <div class="icon"><img src="plastic (2).png" alt=""></div>
+                      <div class="icon-text">Plastic</div>
+                  </td>
+                  <td class="icon-cell">
+                      <div class="icon"><img src="leather (2).png" alt=""></div>
+                      <div class="icon-text">Leather</div>
+                  </td>
+                  <td class="icon-cell">
+                      <div class="icon"><img src="paper (2).png" alt=""></div>
+                      <div class="icon-text">Paper & Pulp</div>
+                  </td>
+                  <td class="icon-cell">
+                      <div class="icon"><img src="energy (2).png" alt=""></div>
+                      <div class="icon-text">Energy</div>
+                  </td>
+                  <td class="icon-cell">
+                      <div class="icon"><img src="textile (2).png" alt=""></div>
+                      <div class="icon-text">Textile</div>
+                  </td>
+                  <td class="icon-cell">
+                      <div class="icon"><img src="cosmetic (2).png" alt=""></div>
+                      <div class="icon-text">Cosmetic</div>
+                  </td>
+                  <td class="icon-cell">
+                      <div class="icon"><img src="rubber (2).png" alt=""></div>
+                      <div class="icon-text">Rubber</div>
+                  </td>
+              </tr>
+          </table>
+          </tr>
+      </table>
+
+        <!-- <table class="icon-table">
+          <tr>
+            <td class="icon-cell"><span class="icon"><div class="img-container"><img src="chemical.png" alt="leather"></div></span></td>
             <td class="icon-cell"><span class="icon" style="margin-left: -10px;"><img src="pharma.png" alt="leather"></span></td>
             <td class="icon-cell"><span class="icon" style="margin-left: 10px;"><img src="petrochem.png" alt="leather"></span></td>
             <td class="icon-cell"><span class="icon"><img src="agrochem.png" alt="leather"></span></td>
@@ -187,7 +305,7 @@
               <td class="icon-cell"><span class="icon"><img src="cosmetic.png" alt=""></span></td>
               <td class="icon-cell"><span class="icon"><img src="rubber.png" alt=""></span></td>
             </tr>
-          </table>
+          </table> -->
 
           <!-- <table>
             <tr>
